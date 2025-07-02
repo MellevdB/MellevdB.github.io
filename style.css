@@ -168,4 +168,48 @@ body.dark-mode .thesis-highlight {
 body.dark-mode .project-tag {
   background: #222;
   color: #90b4ff;
+}
+
+.contact-card {
+  background: #fff;
+  color: #222;
+  max-width: 400px;
+  margin: 2.5rem auto 0 auto;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  animation: fadeIn 1s ease;
+}
+body.dark-mode .contact-card {
+  background: #181a1b;
+  color: #fff;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.25);
+}
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.18s, color 0.18s;
+}
+.contact-link:hover {
+  color: var(--accent);
+  transform: scale(1.06);
+}
+.contact-icon {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  vertical-align: middle;
+  fill: currentColor;
+  transition: color 0.18s;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
 } 
