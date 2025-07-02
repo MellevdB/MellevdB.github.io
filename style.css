@@ -143,4 +143,29 @@ footer {
 .dark-mode-toggle:hover {
   background: var(--accent);
   color: #fff;
+}
+
+.thesis-highlight {
+  background: #fff;
+  color: #111;
+  padding: 1.2rem 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  margin-bottom: 1.5rem;
+}
+body.dark-mode .thesis-highlight {
+  background: #111;
+  color: #fff;
+}
+.project-tag {
+  background: #e0e7ff;
+  color: #4f8cff;
+  padding: 0.2rem 0.7rem;
+  border-radius: 12px;
+  font-size: 0.85em;
+  margin-right: 0.3rem;
+}
+body.dark-mode .project-tag {
+  background: #222;
+  color: #90b4ff;
 } 
