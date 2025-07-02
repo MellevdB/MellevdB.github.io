@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Melle van der Brugge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="container nav-container">
+      <a href="index.html" class="logo">MellevdB</a>
+      <ul class="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="dark-mode-toggle" id="darkModeToggle" aria-label="Toggle dark mode">🌙</button>
+    </div>
+  </nav>
+  <main class="container">
+    <section style="text-align:center; margin-top:2rem;">
+      <!-- Replace src with your profile picture -->
+      <img src="profile.jpg" alt="Profile picture" style="width:120px; border-radius:50%;">
+      <h1>Melle van der Brugge</h1>
+      <p>// Write a short bio about yourself here</p>
+      <h2>Skills & Interests</h2>
+      <ul style="display:inline-block; text-align:left;">
+        <li>// Skill or interest 1</li>
+        <li>// Skill or interest 2</li>
+        <li>// Skill or interest 3</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Melle van der Brugge</p>
+    </div>
+  </footer>
+  <script>
+  // Dark mode toggle logic
+  const toggleBtn = document.getElementById('darkModeToggle');
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const userPref = localStorage.getItem('theme');
+
+  function setTheme(mode) {
+    document.body.classList.remove('dark-mode', 'light-mode');
+    if (mode === 'dark') {
+      document.body.classList.add('dark-mode');
+      toggleBtn.textContent = '☀️';
+    } else {
+      document.body.classList.add('light-mode');
+      toggleBtn.textContent = '🌙';
+    }
+  }
+
+  // Initial theme
+  if (userPref) {
+    setTheme(userPref);
+  } else {
+    setTheme(prefersDark ? 'dark' : 'light');
+  }
+
+  toggleBtn.addEventListener('click', () => {
+    const isDark = document.body.classList.contains('dark-mode');
+    setTheme(isDark ? 'light' : 'dark');
+    localStorage.setItem('theme', isDark ? 'light' : 'dark');
+  });
+  </script>
+</body>
+</html> 

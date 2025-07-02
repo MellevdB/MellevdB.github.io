@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Melle van der Brugge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="container nav-container">
+      <a href="index.html" class="logo">MellevdB</a>
+      <ul class="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="dark-mode-toggle" id="darkModeToggle" aria-label="Toggle dark mode">🌙</button>
+    </div>
+  </nav>
+  <header class="hero">
+    <div class="container">
+      <h1>Welcome to My Personal Website</h1>
+      <p>// Add a short intro about yourself here</p>
+    </div>
+  </header>
+  <main class="container">
+    <section>
+      <h2>Featured Projects</h2>
+      <div class="projects-grid">
+        <!-- Advanced sample project card -->
+        <div class="project-card">
+          <img src="project-image.jpg" alt="Project screenshot" style="width:100%;border-radius:6px 6px 0 0;max-height:140px;object-fit:cover;">
+          <h3>Project Title</h3>
+          <p>Short project description goes here. You can add more details about what the project does.</p>
+          <div style="margin:0.5rem 0;">
+            <span style="background:#e0e7ff;color:#4f8cff;padding:0.2rem 0.7rem;border-radius:12px;font-size:0.85em;margin-right:0.3rem;">#Tag1</span>
+            <span style="background:#e0e7ff;color:#4f8cff;padding:0.2rem 0.7rem;border-radius:12px;font-size:0.85em;">#Tag2</span>
+          </div>
+          <a href="https://github.com/yourusername/project" target="_blank">GitHub</a> |
+          <a href="https://project-demo.com" target="_blank">Demo</a>
+        </div>
+        <!-- Duplicate project-card divs for more projects -->
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Melle van der Brugge</p>
+    </div>
+  </footer>
+  <script>
+  // Dark mode toggle logic
+  const toggleBtn = document.getElementById('darkModeToggle');
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const userPref = localStorage.getItem('theme');
+
+  function setTheme(mode) {
+    document.body.classList.remove('dark-mode', 'light-mode');
+    if (mode === 'dark') {
+      document.body.classList.add('dark-mode');
+      toggleBtn.textContent = '☀️';
+    } else {
+      document.body.classList.add('light-mode');
+      toggleBtn.textContent = '🌙';
+    }
+  }
+
+  // Initial theme
+  if (userPref) {
+    setTheme(userPref);
+  } else {
+    setTheme(prefersDark ? 'dark' : 'light');
+  }
+
+  toggleBtn.addEventListener('click', () => {
+    const isDark = document.body.classList.contains('dark-mode');
+    setTheme(isDark ? 'light' : 'dark');
+    localStorage.setItem('theme', isDark ? 'light' : 'dark');
+  });
+  </script>
+</body>
+</html> 
