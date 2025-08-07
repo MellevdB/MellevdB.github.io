@@ -803,3 +803,40 @@ body.dark-mode .icon-links a {
 body.dark-mode .icon-links a:hover {
   color: #de7d2f !important;
 }
+
+// Additional elements that need dark mode styling
+body.dark-mode .icon-links {
+  border-top-color: #444 !important;
+}
+
+body.dark-mode .icon-links .icon-link:hover .icon path {
+  fill: #de7d2f !important;
+}
+
+body.dark-mode .page-footer {
+  border-top-color: #444 !important;
+}
+
+body.dark-mode .page-footer .footer-line {
+  color: #cccccc !important;
+}
+
+body.dark-mode .page-footer .footer-line > a {
+  color: #ffffff !important;
+}
+
+body.dark-mode .content-section .resume-item-title a,
+body.dark-mode .content-section .resume-item-details a,
+body.dark-mode .content-section .resume-item-copy a,
+body.dark-mode .content-section .resume-item-list a {
+  color: #de7d2f !important;
+  border-bottom-color: #de7d2f !important;
+}
+
+body.dark-mode .content-section .resume-item-title a:hover,
+body.dark-mode .content-section .resume-item-details a:hover,
+body.dark-mode .content-section .resume-item-copy a:hover,
+body.dark-mode .content-section .resume-item-list a:hover {
+  color: #ffffff !important;
+  border-bottom-color: #ffffff !important;
+}
