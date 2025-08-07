@@ -5,7 +5,7 @@
   role: "Master's Thesis Research"
   duration: "2024"
   url: "https://github.com/MellevdB/thesis_melle.git"
-  description: "Developed a comprehensive framework for automatic image quality assessment in photoacoustic imaging (PAI). Evaluated full-reference and no-reference image quality metrics on diverse experimental and simulated datasets. Implemented deep learning models (PhotoacousticQualityNet, IQDCNN, EfficientNetIQA) to predict quality scores directly from reconstructed images. Found that structural metrics like SSIM, S3IM, and IWSSIM are most reliable for PAI quality assessment, while deep learning models achieved accurate predictions with EfficientNetIQA showing best performance. Conducted interpretability analysis and compared with expert preferences through surveys."
+  description: "Developed a comprehensive framework for automatic image quality assessment in photoacoustic imaging (PAI). Evaluated full-reference and no-reference image quality metrics on diverse experimental and simulated datasets. Implemented deep learning models (PhotoacousticQualityNet, IQDCNN, EfficientNetIQA) to predict quality scores directly from reconstructed images. Found that structural metrics like SSIM, S3IM, and IWSSIM are most reliable for PAI quality assessment, while deep learning models achieved accurate predictions with EfficientNetIQA showing best performance. Conducted interpretability analysis and compared with expert preferences through surveys. Currently working on publishing the research in the Photoacoustics journal, which focuses on photoacoustics-optoacoustics-thermoacoustics research."
 
 - project: "Encoding Expert Knowledge in Medical AI Applications"
   role: "Bachelor Thesis Research"

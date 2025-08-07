@@ -5,3 +5,8 @@
 # The "organization" field is the organization that gave the award
 # The "year" field is the year you received the award
 # The "summary" field is a brief description of the award
+
+- award: "Thesis Publication in Photoacoustics Journal"
+  organization: "Photoacoustics (PACS)"
+  year: "2024"
+  summary: "Currently working on publishing Master's thesis research on image quality assessment in photoacoustic imaging in the Photoacoustics journal, which focuses on photoacoustics-optoacoustics-thermoacoustics research and is dedicated to publishing original research in this fast-growing field."
