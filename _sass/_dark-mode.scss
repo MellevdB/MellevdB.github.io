@@ -1,9 +1,10 @@
 // Dark mode toggle positioning
 .dark-mode-toggle {
-  position: absolute;
+  position: fixed;
   top: 20px;
   right: 20px;
   z-index: 1000;
+  transform: scale(0.8);
 }
 
 // BB-8 Toggle Switch Styles
@@ -46,6 +47,9 @@
   border-radius: var(--radius);
   position: relative;
   transition: var(--transition);
+  display: block;
+  min-width: 170px;
+  min-height: 90px;
 }
 
 .bb8 {
