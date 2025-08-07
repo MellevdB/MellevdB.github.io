@@ -15,4 +15,30 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="icon" type="image/x-icon" href="favicon.png" />
+  
+  <script>
+    // Dark mode functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const darkModeToggle = document.getElementById('darkModeToggle');
+      const body = document.body;
+      
+      // Check for saved dark mode preference
+      const darkMode = localStorage.getItem('darkMode');
+      if (darkMode === 'true') {
+        body.classList.add('dark-mode');
+        darkModeToggle.checked = true;
+      }
+      
+      // Toggle dark mode
+      darkModeToggle.addEventListener('change', function() {
+        if (this.checked) {
+          body.classList.add('dark-mode');
+          localStorage.setItem('darkMode', 'true');
+        } else {
+          body.classList.remove('dark-mode');
+          localStorage.setItem('darkMode', 'false');
+        }
+      });
+    });
+  </script>
 </head>

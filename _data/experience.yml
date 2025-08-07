@@ -6,15 +6,15 @@
 # The "duration" field is the time period you worked there
 # The "summary" field is a brief description of what you did
 
-- company: "DLM Finance"
-  position: "Test Engineer"
-  duration: "2022 - Present"
-  summary: "Before DLM Finance promotes a new release to the production server, I have to manually test but also utilize several automation test tools to ensure the quality meet the standards of DLM. I am setting up the processes of the test system, and ensuring the code quality is high and reduces bugs."
-
 - company: "Flagship, PureBoats & Private Canal Cruises"
   position: "Live guided canal tours in Amsterdam"
   duration: "2021 - Present"
   summary: "I am responsible for the people on the boat and the boat itself. I am the skipper on the boat and tell, together with the host, stories about Amsterdam and answer questions about Amsterdam. The tours are very interactive and in English. I love being outside, meeting people from around the world and sharing the love I have for the city of Amsterdam while being on a boat."
+
+- company: "DLM Finance"
+  position: "Test Engineer"
+  duration: "2022 - 2023"
+  summary: "Before DLM Finance promotes a new release to the production server, I have to manually test but also utilize several automation test tools to ensure the quality meet the standards of DLM. I am setting up the processes of the test system, and ensuring the code quality is high and reduces bugs."
 
 - company: "Freelancer Building Websites"
   position: "Building and maintaining website with WordPress"
