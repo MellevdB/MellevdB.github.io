@@ -1,16 +1,18 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-# jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+- project: "Assessing Image Quality in Photoacoustic Imaging"
+  role: "Master's Thesis Research"
+  duration: "2024"
+  url: "https://github.com/MellevdB/thesis_melle.git"
+  description: "Developed a comprehensive framework for automatic image quality assessment in photoacoustic imaging (PAI). Evaluated full-reference and no-reference image quality metrics on diverse experimental and simulated datasets. Implemented deep learning models (PhotoacousticQualityNet, IQDCNN, EfficientNetIQA) to predict quality scores directly from reconstructed images. Found that structural metrics like SSIM, S3IM, and IWSSIM are most reliable for PAI quality assessment, while deep learning models achieved accurate predictions with EfficientNetIQA showing best performance. Conducted interpretability analysis and compared with expert preferences through surveys."
 
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+- project: "Deep Learning for Medical Image Analysis"
+  role: "Research Assistant"
+  duration: "2023-2024"
+  description: "Applied computer vision and deep learning techniques to medical imaging problems. Worked with PyTorch and TensorFlow for image classification, segmentation, and quality assessment tasks. Developed preprocessing pipelines and data augmentation strategies for medical datasets."
+
+- project: "Reinforcement Learning Applications"
+  role: "Course Projects"
+  duration: "2023"
+  description: "Implemented various reinforcement learning algorithms including policy gradients and Q-learning using OpenAI Gym environments. Developed custom environments and experimented with different exploration strategies and reward functions."

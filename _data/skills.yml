@@ -1,12 +1,26 @@
 # Skills
-# Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
+# This is a list of your skills
+# You can add more items by copying the format below
+# The "skill" field is the name of the skill
+# The "description" field is a brief description of the skill
 
-# Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
+- skill: "Programming Languages"
+  description: "Python (NumPy, pandas, matplotlib, scikit-learn), experience with C++ and MATLAB"
 
-# Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+- skill: "Deep Learning & AI"
+  description: "PyTorch, TensorFlow, Keras, computer vision, natural language processing, reinforcement learning"
+
+- skill: "Computer Vision"
+  description: "OpenCV, image classification, segmentation, object detection, medical image analysis"
+
+- skill: "Data Science"
+  description: "Data visualization (Plotly, Seaborn), statistical analysis, machine learning pipelines"
+
+- skill: "Medical Imaging"
+  description: "Photoacoustic imaging, signal processing, image quality assessment, clinical data analysis"
+
+- skill: "Tools & Technologies"
+  description: "Git/GitHub, Docker, Jupyter notebooks, Linux, cloud computing platforms"
+
+- skill: "Research & Analysis"
+  description: "Experimental design, statistical analysis, academic writing, presentation skills"

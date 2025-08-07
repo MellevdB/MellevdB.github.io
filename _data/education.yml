@@ -1,13 +1,20 @@
 # Degree
-- degree: Bachelor of Arts, Human Rights
-  uni: Yale University
-  year: 2004 &mdash; 2008
+- degree: "Master of Science in Artificial Intelligence"
+  uni: "University of Amsterdam"
+  year: "2024"
+  award: "Thesis: Assessing Image Quality in Photoacoustic Imaging: A Metric-Based and Learning-Based Evaluation"
+  summary: "Focused on mathematics, programming, and a broad range of AI techniques. Specialized in computer vision, deep learning, and medical imaging applications."
   awards:
-    - award: Summa Cumme Laude graduate
-  summary: If you had any meaningful roles at college, feel free to write about them here
+    - award: "Thesis on photoacoustic imaging quality assessment"
+    - award: "Deep learning and computer vision specialization"
+    - award: "Medical imaging and signal processing focus"
 
-- degree: High School Diploma
-  uni: Springfield High School
-  year: 2004
-  award: Most likely to succeed
-  summary: You can choose to have either a single or multiple awards
+- degree: "Bachelor of Science in Beta Gamma"
+  uni: "University of Amsterdam"
+  year: "2022"
+  award: "Interdisciplinary program blending natural sciences, social sciences, and humanities"
+  summary: "Developed skills in connecting different fields to tackle complex problems, combining analytical thinking with interdisciplinary approaches."
+  awards:
+    - award: "Interdisciplinary approach to problem-solving"
+    - award: "Combined natural and social sciences"
+    - award: "Critical thinking and research skills"

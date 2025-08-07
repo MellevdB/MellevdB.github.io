@@ -1,66 +1,52 @@
-# Resume template
+# Melle van der Brugge - Personal Resume
 
-*A simple Jekyll + GitHub Pages powered resume template.*
+This is my personal resume website built using the [Jekyll Resume Template](https://github.com/jglovier/resume-template) by Joel Glovier.
 
-![img](images/screenshot.png)
+## About Me
 
-## Docs
+I recently completed the Master's in Artificial Intelligence at the University of Amsterdam, focusing on mathematics, programming, and a broad range of AI techniques. My academic work culminated in a thesis on assessing image quality in photoacoustic imaging, combining both classic image quality metrics and modern deep learning approaches.
 
-### Running locally
+## Website Structure
 
-To test locally, run the following in your terminal:
+- `_config.yml`: Main configuration file with personal information
+- `_data/`: YAML files containing resume data (education, projects, skills, etc.)
+- `_layouts/resume.html`: Main layout template
+- `images/avatar.jpg`: Profile picture
 
-1. Clone repo locally
-1. `bundle install`
-2. `bundle exec jekyll serve`
-3. Open your browser to `localhost:4000`
+## Customization
 
-### Running locally with Docker
+To customize this resume:
 
-To test locally with docker, run the following in your terminal after installing docker into your system:
+1. Edit `_config.yml` for basic information (name, title, contact info, social links)
+2. Update files in `_data/` directory:
+   - `education.yml`: Educational background
+   - `projects.yml`: Projects and research work
+   - `skills.yml`: Technical skills and expertise
+   - `interests.yml`: Personal interests and activities
+   - `links.yml`: Additional links and resources
 
-1. `docker image build -t resume-template .`
-2. `docker run --rm --name resume-template -v "$PWD":/home/app --network host resume-template`
+## Deployment
 
-### Customizing
+This site is configured for GitHub Pages deployment. Simply push changes to the main branch and the site will be automatically built and deployed.
 
-First you'll want to fork the repo to your own account. Then clone it locally and customize, or use the GitHub web editor to customize.
+## Local Development
 
-#### Options/configuration
+To run locally (requires Ruby and Jekyll):
 
-Most of the basic customization will take place in the `/_config.yml` file. Here is a list of customizations available via `/_config.yml`:
+```bash
+bundle install
+bundle exec jekyll serve
+```
 
-[...write these out...]
+Or using Docker:
 
-#### Editing content
+```bash
+docker image build -t resume-template .
+docker run --rm --name resume-template -v "$PWD":/home/app --network host resume-template
+```
 
-Most of the content configuration will take place in the `/_layouts/resume.html` file. Simply edit the markup there accordingly
+Then visit `localhost:4000` in your browser.
 
-### Publishing to GitHub Pages for free
+---
 
-[GitHub Pages](https://pages.github.com/) will host this for free with your GitHub account. Just make sure you're using a `gh-pages` branch, and the site will automatically be available at `yourusername.github.io/resume-template` (you can rename the repo to resume for your own use if you want it to be available at `yourusername.github.io/resume`). You can also add a CNAME if you want it to be available at a custom domain...
-
-### Configuring with your own domain name
-
-To setup your GH Pages site with a custom domain, [follow the instructions](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/) on the GitHub Help site for that topic.
-
-### Themes
-
-Right now resume-template only has one theme. More are coming :soon: though. :heart:
-
-## Roadmap
-
-A feature roadmap is [available here](https://github.com/jglovier/resume-template/projects/1). If you features suggestions, please [open a new issue](https://github.com/jglovier/resume-template/issues/new).
-
-## Contributing
-
-If you spot a bug, or want to improve the code, or even make the dummy content better, you can do the following:
-
-1. [Open an issue](https://github.com/jglovier/resume-template/issues/new) describing the bug or feature idea
-2. Fork the project, make changes, and submit a pull request
-
-## License
-
-The code and styles are licensed under the MIT license. [See project license.](LICENSE) Obviously you should not use the content of this demo repo in your own resume. :wink:
-
-Disclaimer: Use of Lisa M. Simpson image and name used under [Fair Use](https://en.wikipedia.org/wiki/Fair_use) for educational purposes. Project license does not apply to use of this material.
+© 2024 Melle van der Brugge

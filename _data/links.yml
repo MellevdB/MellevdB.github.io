@@ -1,5 +1,9 @@
 # links
-- url: "#"
-  description: Springfield Jazz Enthusiasts
-- url: "#"
-  description: Springfield Young Professionals
+- description: "Thesis Repository"
+  url: "https://github.com/MellevdB/thesis_melle.git"
+
+- description: "Personal GitHub"
+  url: "https://github.com/MellevdB"
+
+- description: "LinkedIn Profile"
+  url: "https://www.linkedin.com/in/mellevdbrugge"
