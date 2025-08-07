@@ -16,13 +16,13 @@ resume_name:                    "Melle van der Brugge"
 resume_title:                   "AI Master's Graduate"
 
 # used for the contact button in _layouts/resume.html
-resume_contact_email:           "mellvdbrugge@gmail.com"
+resume_contact_email:           "mellevdbrugge@gmail.com"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
 resume_contact_telephone:       ""
 resume_contact_address:         "Amsterdam, Netherlands"
 
-resume_header_contact_info:     "Amsterdam, Netherlands • mellvdbrugge@gmail.com"
+resume_header_contact_info:     "Amsterdam, Netherlands • mellevdbrugge@gmail.com"
 display_header_contact_info:    "true"
 
 resume_header_intro: "<p>I recently completed the Master's in Artificial Intelligence at the University of Amsterdam, focusing on mathematics, programming, and a broad range of AI techniques. My academic work culminated in a thesis on assessing image quality in photoacoustic imaging, combining both classic image quality metrics and modern deep learning approaches. I'm passionate about applying AI in versatile, real-world contexts where domain knowledge, technical skills, and creative thinking come together.</p>"
@@ -35,7 +35,7 @@ resume_looking_for_work:        "yes"
 
 # Decide which sections to use
 # comment out to hide
-resume_section_experience:      false
+resume_section_experience:      true
 resume_section_education:       true
 resume_section_projects:        true
 resume_section_skills:          true

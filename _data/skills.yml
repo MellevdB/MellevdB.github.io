@@ -5,22 +5,22 @@
 # The "description" field is a brief description of the skill
 
 - skill: "Programming Languages"
-  description: "Python (NumPy, pandas, matplotlib, scikit-learn), experience with C++ and MATLAB"
+  description: "Python, C, HTML, CSS, JavaScript, Bash, LaTeX"
 
-- skill: "Deep Learning & AI"
-  description: "PyTorch, TensorFlow, Keras, computer vision, natural language processing, reinforcement learning"
+- skill: "Data Science & Machine Learning"
+  description: "Pandas, NumPy, Scikit-Learn, Matplotlib, Plotly, Seaborn, PyTorch, TensorFlow"
 
-- skill: "Computer Vision"
-  description: "OpenCV, image classification, segmentation, object detection, medical image analysis"
+- skill: "Development Tools & Environments"
+  description: "Git, WordPress, Mendix, MacOS/iPadOS/iOS, Microsoft Teams, Zoom, Google Workspace"
 
-- skill: "Data Science"
-  description: "Data visualization (Plotly, Seaborn), statistical analysis, machine learning pipelines"
+- skill: "Computer Vision & AI"
+  description: "OpenCV, image classification, segmentation, object detection, medical image analysis, deep learning"
 
-- skill: "Medical Imaging"
-  description: "Photoacoustic imaging, signal processing, image quality assessment, clinical data analysis"
+- skill: "Web Development"
+  description: "WordPress development and maintenance, HTML/CSS/JavaScript, responsive design"
 
-- skill: "Tools & Technologies"
-  description: "Git/GitHub, Docker, Jupyter notebooks, Linux, cloud computing platforms"
+- skill: "Testing & Quality Assurance"
+  description: "Manual testing, automation testing tools, code quality assurance, test system setup"
 
-- skill: "Research & Analysis"
-  description: "Experimental design, statistical analysis, academic writing, presentation skills"
+- skill: "Languages & Communication"
+  description: "English (fluent), Dutch (native), Spanish (basic from exchange program)"

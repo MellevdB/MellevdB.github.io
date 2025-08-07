@@ -7,12 +7,12 @@
   url: "https://github.com/MellevdB/thesis_melle.git"
   description: "Developed a comprehensive framework for automatic image quality assessment in photoacoustic imaging (PAI). Evaluated full-reference and no-reference image quality metrics on diverse experimental and simulated datasets. Implemented deep learning models (PhotoacousticQualityNet, IQDCNN, EfficientNetIQA) to predict quality scores directly from reconstructed images. Found that structural metrics like SSIM, S3IM, and IWSSIM are most reliable for PAI quality assessment, while deep learning models achieved accurate predictions with EfficientNetIQA showing best performance. Conducted interpretability analysis and compared with expert preferences through surveys."
 
-- project: "Deep Learning for Medical Image Analysis"
-  role: "Research Assistant"
-  duration: "2023-2024"
-  description: "Applied computer vision and deep learning techniques to medical imaging problems. Worked with PyTorch and TensorFlow for image classification, segmentation, and quality assessment tasks. Developed preprocessing pipelines and data augmentation strategies for medical datasets."
-
-- project: "Reinforcement Learning Applications"
-  role: "Course Projects"
+- project: "Encoding Expert Knowledge in Medical AI Applications"
+  role: "Bachelor Thesis Research"
   duration: "2023"
-  description: "Implemented various reinforcement learning algorithms including policy gradients and Q-learning using OpenAI Gym environments. Developed custom environments and experimented with different exploration strategies and reward functions."
+  description: "Research project focused on training machines with symbolic constraints in medical AI applications. Explored methods to incorporate expert knowledge and domain-specific constraints into machine learning models for medical applications, ensuring that AI systems can leverage both data-driven insights and expert medical knowledge."
+
+- project: "Interdisciplinary Research Project"
+  role: "Thema 3, Beta Gamma"
+  duration: "2022"
+  description: "Interdisciplinary research project as part of the Beta Gamma program, combining insights from multiple scientific disciplines to address complex problems. Developed skills in connecting different fields and applying diverse methodologies to research questions."

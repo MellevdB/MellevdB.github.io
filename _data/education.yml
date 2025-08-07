@@ -11,10 +11,28 @@
 
 - degree: "Bachelor of Science in Beta Gamma"
   uni: "University of Amsterdam"
-  year: "2022"
-  award: "Interdisciplinary program blending natural sciences, social sciences, and humanities"
-  summary: "Developed skills in connecting different fields to tackle complex problems, combining analytical thinking with interdisciplinary approaches."
+  year: "2019-2023"
+  award: "Major in Artificial Intelligence, Exchange at Universitat de Barcelona"
+  summary: "Interdisciplinary program blending natural sciences, social sciences, and humanities. Developed skills in connecting different fields to tackle complex problems, combining analytical thinking with interdisciplinary approaches."
   awards:
+    - award: "Exchange program at Universitat de Barcelona (2022-2023)"
     - award: "Interdisciplinary approach to problem-solving"
     - award: "Combined natural and social sciences"
-    - award: "Critical thinking and research skills"
+
+- degree: "Propedeuse Beta Gamma"
+  uni: "University of Amsterdam"
+  year: "2019-2020"
+  award: "Foundation year in interdisciplinary sciences"
+  summary: "Completed the foundation year in the Beta Gamma program, establishing the basis for interdisciplinary scientific study."
+  awards:
+    - award: "Foundation year completed"
+    - award: "Interdisciplinary scientific approach"
+
+- degree: "VWO (Preparatory Scientific Education)"
+  uni: "Sint Nicolaas Lyceum"
+  year: "2012-2018"
+  award: "Secondary education with scientific focus"
+  summary: "Completed preparatory scientific education, providing strong foundation in mathematics, sciences, and humanities."
+  awards:
+    - award: "Secondary education diploma"
+    - award: "Scientific preparatory education"

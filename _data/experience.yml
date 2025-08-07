@@ -5,3 +5,38 @@
 # The "position" field is your job title
 # The "duration" field is the time period you worked there
 # The "summary" field is a brief description of what you did
+
+- company: "DLM Finance"
+  position: "Test Engineer"
+  duration: "2022 - Present"
+  summary: "Before DLM Finance promotes a new release to the production server, I have to manually test but also utilize several automation test tools to ensure the quality meet the standards of DLM. I am setting up the processes of the test system, and ensuring the code quality is high and reduces bugs."
+
+- company: "Flagship, PureBoats & Private Canal Cruises"
+  position: "Live guided canal tours in Amsterdam"
+  duration: "2021 - Present"
+  summary: "I am responsible for the people on the boat and the boat itself. I am the skipper on the boat and tell, together with the host, stories about Amsterdam and answer questions about Amsterdam. The tours are very interactive and in English. I love being outside, meeting people from around the world and sharing the love I have for the city of Amsterdam while being on a boat."
+
+- company: "Freelancer Building Websites"
+  position: "Building and maintaining website with WordPress"
+  duration: "2020 - Present"
+  summary: "I am responsible for the websites of some small business owners and maintain them with WordPress. I have learned to be flexible and to understand the demands of the customers."
+
+- company: "Tring Tring"
+  position: "Bike Delivery"
+  duration: "2020 - 2022"
+  summary: "Because I was indoors a lot due to corona, I was keen to be outside more. By cycling in Amsterdam I have got to know Amsterdam even better than I did before. Furthermore I have learned to deal with different situations due to the big difference in restaurants and the people who work here."
+
+- company: "Sports Exposure/House of Sports"
+  position: "Setting up for sport events"
+  duration: "2018 - 2020"
+  summary: "Worked at different football clubs of various sizes in the Netherlands, making sure that everything was ready for the game. Mainly at events like the Champions League or international games with the Dutch national team."
+
+- company: "De Banq"
+  position: "Waiter/Dishwasher"
+  duration: "2016 - 2018"
+  summary: "Experienced being a waiter and dishwasher. I learned to function in a team and to have responsibilities. I developed social skills and a good work ethic."
+
+- company: "Jumbo"
+  position: "Stock clerk"
+  duration: "2014 - 2016"
+  summary: "Moved products from the warehouse to the store shelves and assisted customers when needed."
