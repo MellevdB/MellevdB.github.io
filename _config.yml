@@ -1,6 +1,8 @@
 # Site settings
 title: "Melle van der Brugge - Resume"
 description: "Personal resume and portfolio of Melle van der Brugge, AI Master's graduate from University of Amsterdam."
+baseurl: ""
+url: "https://mellevdb.github.io"
 
 # Build settings
 markdown: kramdown
