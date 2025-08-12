@@ -1,6 +1,6 @@
 # Site settings
 title: "Melle van der Brugge - Resume"
-description: "Personal resume and portfolio of Melle van der Brugge, AI Master's graduate from University of Amsterdam."
+description: "Personal resume and portfolio of Melle van der Brugge, Master's student in AI at University of Amsterdam."
 baseurl: ""
 url: "https://mellevdb.github.io"
 
@@ -13,7 +13,7 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Melle van der Brugge"
-resume_title:                   "AI Master's Graduate"
+resume_title:                   "Master's Student in AI"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "mellevdbrugge@gmail.com"
@@ -25,7 +25,7 @@ resume_contact_address:         "Amsterdam, Netherlands"
 resume_header_contact_info:     "Amsterdam, Netherlands • mellevdbrugge@gmail.com"
 display_header_contact_info:    "true"
 
-resume_header_intro: "<p>I recently completed the Master's in Artificial Intelligence at the University of Amsterdam, focusing on mathematics, programming, and a broad range of AI techniques. My academic work culminated in a thesis on assessing image quality in photoacoustic imaging, combining both classic image quality metrics and modern deep learning approaches. I'm passionate about applying AI in versatile, real-world contexts where domain knowledge, technical skills, and creative thinking come together.</p>"
+resume_header_intro: "<p>I am currently completing my Master's in Artificial Intelligence at the University of Amsterdam, focusing on mathematics, programming, and a broad range of AI techniques. My academic work includes a thesis on assessing image quality in photoacoustic imaging, combining both classic image quality metrics and modern deep learning approaches. I'm passionate about applying AI in versatile, real-world contexts where domain knowledge, technical skills, and creative thinking come together.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
