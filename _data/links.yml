@@ -1,6 +1,12 @@
 # links
-- description: "Thesis Repository"
-  url: "https://github.com/MellevdB/thesis_melle.git"
+- description: "Publication in Photoacoustics (doi:10.1016/j.pacs.2026.100800)"
+  url: "https://doi.org/10.1016/j.pacs.2026.100800"
+
+- description: "Photoacoustic Image Quality Assessment (code)"
+  url: "https://github.com/MellevdB/photoacoustic-image-quality-assessment"
+
+- description: "Stroomlijn AI"
+  url: "https://www.stroomlijnai.com"
 
 - description: "Personal GitHub"
   url: "https://github.com/MellevdB"

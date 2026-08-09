@@ -4,23 +4,26 @@
 # The "skill" field is the name of the skill
 # The "description" field is a brief description of the skill
 
-- skill: "Programming Languages"
-  description: "Python, C, HTML, CSS, JavaScript, Bash, LaTeX"
+- skill: "Programming"
+  description: "Python, SQL, JavaScript, HTML/CSS, Bash, LaTeX, C"
 
-- skill: "Data Science & Machine Learning"
-  description: "Pandas, NumPy, Scikit-Learn, Matplotlib, Plotly, Seaborn, PyTorch, TensorFlow"
+- skill: "AI & NLP"
+  description: "RAG (hybrid retrieval, Reciprocal Rank Fusion, cross-encoder reranking), embeddings (bge-m3), fine-tuning of language and speech models, prompt design, evaluation (MRR, recall@k, gold sets, COMET), local models via Ollama, external model APIs, PyTorch, TensorFlow, scikit-learn"
 
-- skill: "Development Tools & Environments"
-  description: "Git, WordPress, Mendix, MacOS/iPadOS/iOS, Microsoft Teams, Zoom, Google Workspace"
+- skill: "Data"
+  description: "Pandas, NumPy, PostgreSQL, ChromaDB, BM25, OCR (PyMuPDF, Tesseract), incremental ingestion pipelines, XML/RDF processing, Matplotlib, Plotly, Seaborn"
 
-- skill: "Computer Vision & AI"
+- skill: "Computer Vision"
   description: "OpenCV, image classification, segmentation, object detection, medical image analysis, deep learning"
 
-- skill: "Web Development"
-  description: "WordPress development and maintenance, HTML/CSS/JavaScript, responsive design"
+- skill: "Cloud & Infrastructure"
+  description: "Azure (Functions, Web Apps, Blob Storage, REST integrations), Docker, Git, FastAPI"
+
+- skill: "Privacy & Responsible AI"
+  description: "GDPR considerations in design choices, data residency and processor agreements, source verification and detection of fabricated citations"
 
 - skill: "Testing & Quality Assurance"
   description: "Manual testing, automation testing tools, code quality assurance, test system setup"
 
 - skill: "Languages & Communication"
-  description: "English (fluent), Dutch (native), Spanish A1"
+  description: "Dutch (native), English (fluent), Spanish (A1)"

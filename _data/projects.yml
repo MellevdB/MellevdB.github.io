@@ -1,18 +1,28 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-- project: "Assessing Image Quality in Photoacoustic Imaging"
-  role: "Master's Thesis Research"
+- project: "AI Assistant for a Criminal Defence Law Firm"
+  role: "Independent project via Stroomlijn AI"
+  duration: "2026"
+  url: "https://www.stroomlijnai.com"
+  description: "Designed and built a RAG system over published court rulings and scanned client files, with client file data kept strictly local. Implemented hybrid retrieval with cross-encoder reranking and tuned the retrieval parameters against measured results rather than defaults. Built the evaluation setup, including gold sets, and repeatedly corrected my own measurements where they turned out to flatter the system. Confidentiality is enforced in code rather than in policy and verified with tests. Every citation in an answer is verifiable against the public source register, and \"nothing found\" is treated as a valid answer. I also built the data pipelines behind it: incremental ingestion from a public API, OCR with page provenance, and a migration of the production vector store."
+
+- project: "The Impact of Model Quantization on Translation Quality"
+  role: "MSc project, team of five"
+  duration: "2025"
+  description: "Evaluated a translation-specialised LLM (TowerMistral 7B) against a general instruction-tuned model (Gemma-3) at 8-, 4- and 2-bit quantization on the WMT24++ benchmark. Stratified results by automatically estimated sentence difficulty and scored with COMET-22, chrF and COMETKiwi-XL, showing both models hold up to 4-bit while only the general-purpose model degrades sharply at 2-bit."
+
+- project: "Fine-Tuning Parler-TTS and Layer-Wise Analysis with DecoderLens"
+  role: "MSc project, team of three"
   duration: "2024"
-  url: "https://github.com/MellevdB/thesis_melle.git"
-  description: "Developed a comprehensive framework for automatic image quality assessment in photoacoustic imaging (PAI). Evaluated full-reference and no-reference image quality metrics on diverse experimental and simulated datasets. Implemented deep learning models (PhotoacousticQualityNet, IQDCNN, EfficientNetIQA) to predict quality scores directly from reconstructed images. Found that structural metrics like SSIM, S3IM, and IWSSIM are most reliable for PAI quality assessment, while deep learning models achieved accurate predictions with EfficientNetIQA showing best performance. Conducted interpretability analysis and compared with expert preferences through surveys. Currently working on publishing the research in the Photoacoustics journal, which focuses on photoacoustics-optoacoustics-thermoacoustics research."
+  description: "Fine-tuned the Parler-TTS speech model on a subset of the Jenny TTS dataset and compared it against the baseline on Word Error Rate and an expert-rated accent score. Used DecoderLens to compare per-layer output across four training checkpoints, isolating the text description rather than the fine-tuning itself as the dominant factor in WER."
+
+- project: "Reproducibility Study of the FairLISA Fairness Framework"
+  role: "MSc project, team of four"
+  duration: "2024"
+  description: "Reproduced a framework for fair user modelling with limited sensitive attribute data, across cognitive diagnosis and recommender tasks, and could neither confirm nor reject its central fairness claims. Documented exactly which assumptions were required because data and code were missing, restructured the original codebase, and ran a correlation analysis showing which sensitive attributes the embeddings could plausibly encode."
 
 - project: "Encoding Expert Knowledge in Medical AI Applications"
   role: "Bachelor Thesis Research"
   duration: "2023"
   description: "Research project focused on training machines with symbolic constraints in medical AI applications. Explored methods to incorporate expert knowledge and domain-specific constraints into machine learning models for medical applications, ensuring that AI systems can leverage both data-driven insights and expert medical knowledge."
-
-- project: "Interdisciplinary Research Project"
-  role: "Thema 3, Beta Gamma"
-  duration: "2022"
-  description: "Interdisciplinary research project as part of the Beta Gamma program, combining insights from multiple scientific disciplines to address complex problems. Developed skills in connecting different fields and applying diverse methodologies to research questions."

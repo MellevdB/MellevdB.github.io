@@ -106,6 +106,33 @@
       {% endif %}
 
 
+      {% if site.resume_section_publications %}
+      <!-- begin Publications -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Publication{% if site.data.publications.size > 1 %}s{% endif %}</h2>
+        </header>
+
+        {% for publication in site.data.publications %}
+        <div class="resume-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+          <meta itemprop="author" content="{{ site.resume_name }}" />
+          <h3 class="resume-item-title" itemprop="name">{% if publication.url %}<a href="{{ publication.url }}" itemprop="url">{{ publication.title }}</a>{% else %}{{ publication.title }}{% endif %}</h3>
+          <h4 class="resume-item-details" itemprop="description">{{ publication.venue }} &bull; {{ publication.year }}{% if publication.role %} &bull; {{ publication.role }}{% endif %}</h4>
+          <h5 class="resume-item-details award-title" itemprop="description">{{ publication.authors }}{% if publication.doi %} &bull; doi:{{ publication.doi }}{% endif %}</h5>
+          <ul class="resume-item-list">
+            {% for item in publication.highlights %}
+            <li>{{ item.highlight }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endfor %}
+
+      </section>
+      <!-- end Publications -->
+      {% endif %}
+
+
       {% if site.resume_section_education %}
       <!-- begin Education -->
       <section class="content-section">
@@ -269,7 +296,7 @@
       {% endif %}
 
       <footer class="page-footer">
-        <p class="footer-line">© 2024 Melle van der Brugge</p>
+        <p class="footer-line">© 2026 Melle van der Brugge</p>
       </footer>
 
     </div>

@@ -6,17 +6,27 @@
 # The "duration" field is the time period you worked there
 # The "summary" field is a brief description of what you did
 
-- company: "Flagship, PureBoats & Private Canal Cruises"
-  position: "Live guided canal tours in Amsterdam"
-  duration: "2021 - Present"
-  summary: "I am responsible for the people on the boat and the boat itself. I am the skipper on the boat and tell, together with the host (if present), stories about Amsterdam and answer questions about Amsterdam. The tours are very interactive and in general in English. I love being outside, meeting people from around the world and sharing the love I have for the city of Amsterdam while being on a boat."
+- company: "Neele-Vat"
+  position: "Business Process Analyst, Air & Ocean"
+  duration: "2026 - Present"
+  summary: "I analyse and redesign operational processes in air and ocean freight and translate them into automated workflows. I build and maintain automations and AI applications on Azure — Functions, Web Apps, Blob Storage and integrations with existing systems over REST APIs. I work directly with operational colleagues: gathering requirements, explaining technical trade-offs, and adjusting solutions based on how they are actually used."
+
+- company: "Stroomlijn AI"
+  position: "Founder • www.stroomlijnai.com"
+  duration: "2026 - Present"
+  summary: "I advise on and implement AI applications for Dutch organisations: process automation, LLM integration, data processing and AI agents."
+
+- company: "Flagship, Pure Boats & Private Canal Cruises"
+  position: "Skipper and guide, Amsterdam canal tours"
+  duration: "2021 - 2026"
+  summary: "I ran live guided tours in Dutch and English and was responsible for the guests on board as well as for the vessel itself. The tours are very interactive. I love being outside, meeting people from around the world and sharing the love I have for the city of Amsterdam while being on a boat."
 
 - company: "DLM Finance"
   position: "Test Engineer"
   duration: "2022 - 2023"
-  summary: "Before DLM Finance promotes a new release to the production server, I have to manually test but also utilize several automation test tools to ensure the quality meet the standards of DLM. I am setting up the processes of the test system, and ensuring the code quality is high and reduces bugs."
+  summary: "I tested releases manually and with test automation tooling before they were promoted to production, and contributed to setting up the testing processes and safeguarding code quality."
 
-- company: "Freelancer Building Websites"
-  position: "Building and maintaining website with WordPress"
+- company: "Freelance Web Development"
+  position: "Websites for small business owners"
   duration: "2020 - 2022"
-  summary: "I am responsible for the websites of some small business owners and maintain them with WordPress. I have learned to be flexible and to understand the demands of the customers."
+  summary: "I built and maintained WordPress websites, from gathering requirements through delivery and ongoing maintenance. I learned to be flexible and to understand what customers actually need."

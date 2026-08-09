@@ -1,0 +1,20 @@
+# Publications
+# The "title" field is the title of the paper
+# The "venue" field is the journal or conference, with volume/article number
+# The "role" field is your authorship position
+# The "year" field is the year of publication
+# The "authors" field is the full author list
+# The "url" field links to the paper (e.g. its DOI)
+# The "highlights" list is rendered as bullet points
+
+- title: "Assessing image quality in photoacoustic imaging: A metric-based and deep learning-based evaluation"
+  venue: "Photoacoustics, Volume 49, 100800"
+  role: "First author"
+  year: "2026"
+  authors: "Melle van der Brugge, Kalloor Joseph Francis, Navchetan Awasthi"
+  url: "https://doi.org/10.1016/j.pacs.2026.100800"
+  doi: "10.1016/j.pacs.2026.100800"
+  highlights:
+    - highlight: "First large-scale benchmark of image quality assessment in photoacoustic imaging: 11 full-reference and 2 no-reference metrics evaluated across nearly one million images from five independent datasets."
+    - highlight: "Trained three deep learning architectures (PAQNet, IQDCNN, EfficientNetIQA) to predict metric values directly from images, enabling reference-free quality estimation."
+    - highlight: "Code published for reproducibility: github.com/MellevdB/photoacoustic-image-quality-assessment"
